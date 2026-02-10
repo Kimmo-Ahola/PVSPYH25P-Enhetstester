@@ -105,6 +105,8 @@ def test_not_palindrome():
 
 
 # Skriv ett parametriserat test för subtract
+
+```python
 @pytest.mark.parametrize("a, b, expected", [
     # TODO: Lägg till testfall här
     # Format: (tal1, tal2, förväntat_resultat)
@@ -112,3 +114,4 @@ def test_not_palindrome():
 def test_subtract_parametrized(a, b, expected):
     # TODO: Implementera testet
     pass
+```
